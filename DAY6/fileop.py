@@ -1,0 +1,6 @@
+f=open("/workspaces/ACE-BOOTCAMP-0626/DAY6/data.txt","r+")
+f.write("u")
+f.seek(0)
+print(f.read())
+print("File Name is:",f.name)
+print(f.tell())

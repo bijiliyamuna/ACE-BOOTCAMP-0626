@@ -1,0 +1,5 @@
+f=open("test.txt","w")
+f.write("u")
+print("File Name is:",f.name)
+print(f.tell())
+print(f.closed)
